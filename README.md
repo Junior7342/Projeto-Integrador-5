@@ -12,6 +12,10 @@
 - Subida de servidores
 - Carga de scripts etc.
 
+## Descrição dos arquivos do projeto
+- Arquivo 1
+- Arquivo 2
+
 ## Link do vídeo apresentando o projeto
 (copiar link do Youtube)
 
