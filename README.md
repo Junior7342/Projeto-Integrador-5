@@ -26,7 +26,11 @@ O aplicativo "Cadê Meu Disco?" ou "CMD" trabalha com a conexão dos colecionado
 A versão atual do aplicativo não realiza as transações entre os usuários, apenas
 
 ## Esquema lógico relacional
-* album(#id_album, nome_album, data_album, imagem_album, id_artista, valor_album)
+* album (#id_album, nome_album, data_album, imagem_album, id_artista, valor_album)
 * artista (#id_artista, nome_artista, pais_artista)
 * usuario (#id_usuario, nome_usuario, email_usuario, cpf_usuario)
 
+## Estrutura do diretório
+* sql - pasta do banco de dados
+* src - pasta do sistema em Python
+* templates - pasta dos modelos em HTML e do CSS
