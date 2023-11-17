@@ -2,7 +2,6 @@
  Aplicativo "Cadê meu disco"
 
 ## Membros do grupo:
-- Carlos Eduardo Soares da Silva
 - Cintia Mascari Martim
 - Mamede Rodrigues de Sousa Junior
 - Tiago Anselmo Pereira
