@@ -1,0 +1,49 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 3rem;
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.content-container.visible{
+    opacity: 1;
+}
+
+.content-search{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 4rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.search{
+    height: 5vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid black;
+    outline: none; /* Serve para tirar as bordas do input quando clicado para escrever */
+    width: 32vw;
+    font-size: 1.2rem;
+}
+
+.content-search.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
