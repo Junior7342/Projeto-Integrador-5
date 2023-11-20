@@ -47,6 +47,7 @@
     }
     .title{
         font-size: 2rem;
+        justify-content: space-between;
     }
 }
 
@@ -62,10 +63,10 @@
 
     .title{
         height: 5vh;
-        width: 70vw;
+        width: 60vw;
         font-size: 0.5rem;
         order: 1;
-        transform: translateX(-6rem);
+        transform: translateX(-4rem);
     }
 
     .header-topics{
@@ -86,6 +87,10 @@
     .title{
         font-size: 0.5rem;
         transform: translateX(-1rem);
+    }
+
+    .header-container{
+        height: 10vh;
     }
 }
 
