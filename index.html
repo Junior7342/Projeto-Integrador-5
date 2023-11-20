@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/content.css">
     <link rel="stylesheet" href="/css/artists.css">
+    <link rel="stylesheet" href="/css/mobile-menu-style.css">
     <title>Cadê meu Disco</title>
     <script src="https://kit.fontawesome.com/ac422d41a0.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
@@ -23,15 +24,23 @@
                 <button type="button" class="topics-button">Home</button>
                 <button type="button" class="topics-button">Objetivos</button>
                 <button type="button" class="topics-button">Quem Somos</button>
-            </div>   
+            </div> 
+            <div class="menu-container">
+                <i class="fa-solid fa-bars" id="mobile-menu-icon"></i>
+                 <div class="mobile-menu">
+                    <button type="button" class="topics-button">Home</button>
+                    <button type="button" class="topics-button">Objetivos</button>
+                    <button type="button" class="topics-button">Quem somos</button>
+                </div>
+            </div>  
         </div>
         <div class="content">
             <div class="content-container" id="welcome">
                 <h1>Bem-vindo!</h1>
-                <p>Encontre aqui os melhores discos novos ou usados!</p>
+                <p class="p1">Encontre aqui os melhores discos novos ou usados!</p>
             </div>
             <div class="content-search" id="search">
-                <p>Escreva aqui o nome do Disco ou da Banda</p>
+                <p class="p2">Escreva aqui o nome do Disco ou da Banda</p>
                 <div class="input-config">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" class="search" placeholder="Pesquisar">
@@ -43,8 +52,6 @@
             </div>     -->
             </div>
         </div>
-
     </main>
-    
 </body>
 </html>
