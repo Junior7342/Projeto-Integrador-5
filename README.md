@@ -20,7 +20,7 @@ Assim, foram realizados ajustes no escopo do projeto e, para viabilizar a entreg
 
 ## Preparação do ambiente de desenvolvimento do projeto (seleção de tecnologias de frontend, backend e banco de dados)
 Quanto à preparação do ambiente de desenvolvimento do projeto, o frontend será em HTML/CSS, o backend em Python com banco de dados PostgreSQL em um app Flask.
-Por conta da redução do escopo do projeto para a prova de conceito, foi criada a página de login do usuário em HTML/CSS, já seguindo o padrão de identidade visual do futuro aplicativo.
+Por conta da redução do escopo do projeto para a prova de conceito, foi criada uma página de busca em HTML, mas ainda sem ligação com o backend.
 Além disso, foi desenvolvido o backend em Python, faltando ajustes quanto à validação dos dados inseridos e tratamento de erros e exceções. Em virtude das dificuldades de tempo e pela redução de um membro na equipe, não foi possível finalizar o app em Flask. Assim, o script em Python exibe uma interface de usuário simples, apenas para validar a inclusão dos dados na jornada do usuário.
 O banco de dados em PostgreSQL será criado depois da prova de conceito, junto com o servidor em Flask. O repositório de dados associado à prova de conceito do projeto utilizou dicionários em Python, estrutura de dados suficiente para validação da ideia no atual momento.
 
@@ -28,10 +28,10 @@ O banco de dados em PostgreSQL será criado depois da prova de conceito, junto c
 - Para realizar a prova de conceito, fazer download e executar o arquivo app_cade_meu_disco.py numa interface python como, por exemplo, Visual Studio, PyCharm, entre outros
 
 ## Descrição do aplicativo
-O aplicativo "Cadê Meu Disco?" ou "CMD" trabalha com a conexão dos colecionadores e amantes dos discos de vinil que não possuem tempo para frequentar feiras de vinil próximas à sua residência. Os usuários podem criar um cadastro e: 
-1. Inserir os discos que possuem em sua coleção; ou
-2. Buscar os discos que estão desejando
-
+O aplicativo "Cadê Meu Disco?" ou "CMD" trabalha com a conexão dos colecionadores e amantes dos discos de vinil que não possuem tempo para frequentar feiras de vinil próximas à sua residência. Na prova de conceito os usuários podem:
+1. Criar um cadastro de usuário e;
+2. Cadastrar um vinil para venda, inserindo dados como nome da banda, nome do album, entre outros.
+   
 ## Estrutura do diretório de arquivos do projeto
 * Pasta sql - pasta do banco de dados (ainda não foi criado o banco de dados)
 * Pasta src - pasta do sistema em Python. Contém os arquivos (1) app_cade_meu_disco.py, um script em Python criado para validar a jornada do usuário e (2) app_flask.py, aplicação ainda não finalizada, que irá unir o backend em Python com um banco de dados PostgreSQL
