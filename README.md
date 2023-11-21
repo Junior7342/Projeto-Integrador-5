@@ -25,7 +25,7 @@ Além disso, foi desenvolvido o backend em Python, faltando ajustes quanto à va
 O banco de dados em PostgreSQL será criado depois da prova de conceito, junto com o servidor em Flask. O repositório de dados associado à prova de conceito do projeto utilizou dicionários em Python, estrutura de dados suficiente para validação da ideia no atual momento.
 
 ## Como executar o projeto
-- Para realizar a prova de conceito, fazer download e executar o arquivo app_cade_meu_disco.py numa interface python como, por exemplo, Visual Studio, PyCharm, entre outros
+- Para realizar a prova de conceito, fazer download e executar na máquina local o arquivo app_cade_meu_disco.py numa interface python como, por exemplo, Visual Studio, PyCharm, entre outros
 
 ## Descrição do aplicativo
 O aplicativo "Cadê Meu Disco?" ou "CMD" trabalha com a conexão dos colecionadores e amantes dos discos de vinil que não possuem tempo para frequentar feiras de vinil próximas à sua residência. Na prova de conceito os usuários podem:
@@ -36,5 +36,5 @@ O aplicativo "Cadê Meu Disco?" ou "CMD" trabalha com a conexão dos colecionado
 * Pasta src - pasta do sistema em Python. Contém os arquivos (1) app_cade_meu_disco.py, um script em Python criado para validar a jornada do usuário e (2) app_flask.py, aplicação ainda não finalizada, que irá unir o backend em Python com um banco de dados PostgreSQL
 * Pastas assets e css - recursos do site e estilos em CSS
 
-## Link do vídeo apresentando o projeto
-(copiar link do Youtube)
+## Vídeo apresentando o projeto
+* A apresentação do projeto está no vídeo "Apresentacao POC.mp4", disponível neste repositório
