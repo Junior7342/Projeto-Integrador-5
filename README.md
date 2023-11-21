@@ -33,7 +33,6 @@ O aplicativo "Cadê Meu Disco?" ou "CMD" trabalha com a conexão dos colecionado
 2. Cadastrar um vinil para venda, inserindo dados como nome da banda, nome do album, entre outros.
    
 ## Estrutura do diretório de arquivos do projeto
-* Pasta sql - pasta do banco de dados (ainda não foi criado o banco de dados)
 * Pasta src - pasta do sistema em Python. Contém os arquivos (1) app_cade_meu_disco.py, um script em Python criado para validar a jornada do usuário e (2) app_flask.py, aplicação ainda não finalizada, que irá unir o backend em Python com um banco de dados PostgreSQL
 * Pastas assets e css - recursos do site e estilos em CSS
 
