@@ -1,0 +1,47 @@
+HTML
+
+<div class="buttons">
+    <button id="botao" type="button">Cadastrar-se</button>
+    <button id="botao" type="button">Login</button>
+</div>
+        
+
+
+
+CSS
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23vh;
+    transform: translateY(1rem);
+    
+}
+
+#botao{
+    width: 50vw;
+    height: 7vh;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgba(233, 233, 233, 0.779);
+    background-color: rgba(0, 0, 0, 0.693);
+    border-style: none;
+    border-bottom: 3px solid rgb(249, 249, 249);
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: transform 1s ease;
+}
+
+#botao:hover{
+    transform: translateY(-1rem);
+    color: white;
+    background-color: black;
+}
+
+#botao{
+    transform: translateY(0);
+}
+
