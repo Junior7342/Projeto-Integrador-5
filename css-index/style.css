@@ -23,12 +23,16 @@ nav{
     
 }
 
+#logo{
+    width: 35vw;
+}
+
 .buttons{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 23vh;
-    transform: translateY(3rem);
+    transform: translateY(1rem);
     
 }
 
@@ -55,4 +59,8 @@ nav{
 
 #botao{
     transform: translateY(0);
+}
+
+#img-vetor-vinil{
+    width: 60vw;
 }
