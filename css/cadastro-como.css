@@ -7,77 +7,24 @@
 }
 
 
-#img-fundo{
-    width: 100%;
-    height: 100vh;
-}
-
-
-
-nav{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 1rem;    
-}
-
-#logo{
-    width: 9rem;
-    height: 30vh;
-}
-
-#login-sign{
+#como-cadastro-sign{
     border-radius: 10px;
-    width: 15rem;
+    width: 30rem;
     height: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(250, 250, 250, 0.579);
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 2rem;
     
 }
 
-.container-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
-    background-color:rgba(250, 250, 250, 0.579);
-    border-radius: 10px;
-}
-
-.formulario{
-    width: 100%;
-    height: 27vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1.5rem;
- 
-}
-
-#nome-email, #senha{
-    height: 5vh;
-    border: none;
-    border-bottom: 2px solid black;
-    border-radius: 3px;
-    font-size: 1.1rem;
-    
-    background-color: rgba(151, 92, 16, 0);
-}
-
-
-
-#botao-entrar{
-    width: 5rem;
+#pessoa-fisica-btn, #pessoa-juridica-btn{
+    margin-top: 1rem;
+    width: 15rem;
     height: 7vh;
+    font-size: 1.1rem;
     font-weight: 900;
     border-radius: 10px;
     cursor: pointer;
@@ -86,13 +33,14 @@ nav{
     transition: transform 1s ease;
 }
 
-#botao-entrar:hover{
+#pessoa-fisica-btn:hover, #pessoa-juridica-btn:hover{
     transform: translateY(-0.5rem);
     background-color: rgba(151, 92, 16, 0.521); 
 }
 
-#botao-entrar{
-    transform: translateY(0);
+#pessoa-fisica-btn a, #pessoa-juridica-btn a{
+    color: inherit;
+    text-decoration: none;
 }
 
 #img-vetor-vinil{
@@ -123,27 +71,17 @@ a{
         background-color: rgba(252, 143, 0, 0.323);
     }
 
-    #login-sign{
-        width: 20rem;
-        background-color: rgba(250, 250, 250, 0.540);
-        font-size: 2.5rem;
-        
-    }
-
     .container-form{
         width: 32rem;
         height: 37vh;
+        display: flex;
+        align-items: center;
         background-color:rgba(250, 250, 250, 0.540);
     }
 
-    #nome, #senha{
-        width: 27rem;
-        font-size: 1.5rem;
-    }
-
-    #botao-entrar{
+    #botao-continuar{
         width: 7rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #cadastro{
@@ -161,3 +99,20 @@ a{
     }
 }
 
+
+@media screen and (max-width: 1150px){
+
+    #como-cadastro-sign{
+        width: 17rem;
+        font-size: 1.2rem;   
+    }
+
+    .container-form{
+        width: 19rem;
+    }
+
+    #pessoa-fisica-btn, #pessoa-juridica-btn{
+        width: 12rem;
+    }
+
+}

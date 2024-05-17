@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/logo-aba.png" type="image/png">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/cadastro-fisica.css">
     <title>Cadê Meu Vinil</title>
 </head>
 <body>
@@ -12,20 +12,21 @@
         <div>
             <img id="logo" src="/assets/logo.png" alt="logo-do-cade-meu-disco-2024">
         </div>
-        <p id="login-sign">Faça seu login</p>
+        <p id="login-sign">Pessoa Física</p>
         <div class="container-form">
             <form class="formulario" onsubmit="return login_ok()">
-                <input id="email" type="email" placeholder=" Digite seu email" required>
-                <input id="senha" type="password" placeholder=" Digite sua senha" required>
-                <a href=""><button id="botao-entrar" type="submit" disabled>Entrar</button></a>
+                <input id="cpf" type="text" placeholder=" CPF" required>
+                <input id="nome" type="text" placeholder=" Nome" required>
+                <input id="email" type="email" placeholder=" Email" required>
+                <input id="senha" type="password" placeholder=" Crie sua senha" required>
+                <input id="senha-confirm" type="senha" placeholder=" Confirme sua senha" required>
+                <a href="/html/bem-vindo.html"><button id="botao-finalizar" type="submit">Finalizar</button></a>
             </form>
             <div id="cadastro">
-                <p>Ainda não tem uma conta?</p>
-                <p>Faça o seu <a href="/html/cadastro-como.html">cadastro</a> aqui agora mesmo!</p>
+                <p>Já tem uma conta?</p>
+                <p>Faça o seu <a href="/index.html">Login</a></p>
             </div>
         </div>
- 
-        <img id="img-vetor-vinil" src="/assets/vetor-vinil-preto.png" alt="logo-vinil-preto">
     </nav>
     <img id="img-fundo" src="/assets/tela-inicial .jpg" alt="imagem-de-um-vinil-sendo-posto-para-tocar">
     <script src="/scripts/index.js"></script>

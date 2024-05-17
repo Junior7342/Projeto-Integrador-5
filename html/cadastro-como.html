@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/logo-aba.png" type="image/png">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/cadastro-como.css">
     <title>Cadê Meu Vinil</title>
 </head>
 <body>
@@ -12,22 +13,21 @@
         <div>
             <img id="logo" src="/assets/logo.png" alt="logo-do-cade-meu-disco-2024">
         </div>
-        <p id="login-sign">Faça seu login</p>
+        <p id="como-cadastro-sign">Como deseja se cadastrar?</p>
         <div class="container-form">
-            <form class="formulario" onsubmit="return login_ok()">
-                <input id="email" type="email" placeholder=" Digite seu email" required>
-                <input id="senha" type="password" placeholder=" Digite sua senha" required>
-                <a href=""><button id="botao-entrar" type="submit" disabled>Entrar</button></a>
+            <form class="formulario">
+                <button id="pessoa-fisica-btn" type="button"><a href="/html/cadastro-fisica.html">Pessoa Física</a></button>
+                <button id="pessoa-juridica-btn" type="button"><a href="/html/cadastro-juridica.html">Pessoa Jurídica</a></button>
             </form>
             <div id="cadastro">
-                <p>Ainda não tem uma conta?</p>
-                <p>Faça o seu <a href="/html/cadastro-como.html">cadastro</a> aqui agora mesmo!</p>
+                <p>Já tem uma conta?</p>
+                <p>Faça o seu <a href="/index.html">Login</a></p>
             </div>
         </div>
  
         <img id="img-vetor-vinil" src="/assets/vetor-vinil-preto.png" alt="logo-vinil-preto">
     </nav>
     <img id="img-fundo" src="/assets/tela-inicial .jpg" alt="imagem-de-um-vinil-sendo-posto-para-tocar">
-    <script src="/scripts/index.js"></script>
+    <script ></script>
 </body>
 </html>
