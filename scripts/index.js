@@ -3,26 +3,35 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const senhaInput = document.getElementById('senha');
     const botaoEntrar = document.getElementById('botao-entrar');
 
-    function validarInputs(){
+    function validarInputs() {
         const emailValue = emailInput.value.trim();
         const senhaValue = senhaInput.value.trim();
 
-        // Código de verificação dos campos se não estão vazios
+        // Verificar se o email é válido
+        const emailValido = validarEmail(emailValue);
 
-        if (emailValue && senhaValue){
+        if (emailValido && senhaValue) {
             botaoEntrar.disabled = false;
         } else {
             botaoEntrar.disabled = true;
         }
     }
 
-    // Listeners aos inputs para validar enquanto o usuário digita
+    function validarEmail(email) {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
+    }
+
     emailInput.addEventListener('input', validarInputs);
     senhaInput.addEventListener('input', validarInputs);
 
-    // Iniciar com o botão desabilitado
     botaoEntrar.disabled = true;
 
+    botaoEntrar.addEventListener('click', () => {
+        if (!botaoEntrar.disabled) {
+            window.location.href = '/html/bem-vindo.html';
+        }
+    });
 });
 
 function login_ok() {
@@ -31,10 +40,9 @@ function login_ok() {
 
     if (email && password) {
         console.log("Login bem-sucedido");
-        return true; //permite o envio do formulário
+        return true;
     } else {
         console.log("Preencha todos os campos");
-        return false; // Impede o envio do formulário
+        return false;
     }
-
 }

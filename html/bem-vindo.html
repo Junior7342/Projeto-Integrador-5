@@ -6,12 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/colors.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/content.css">
-    <link rel="stylesheet" href="/css/artists.css">
-    <link rel="stylesheet" href="/css/mobile-menu-style.css">
+    <link rel="stylesheet" href="/css/bem-vindo.css">
+    <link rel="icon" href="/assets/logo-aba.png" type="image/png">
     <title>Cadê meu Disco</title>
     <script src="https://kit.fontawesome.com/ac422d41a0.js" crossorigin="anonymous"></script>
     <script src="/scripts/bem-vindo.js" defer></script>
@@ -19,7 +15,10 @@
 <body>
     <main>
         <div class="header-container">
-            <h1 class="title">Cadê Meu Disco?!</h1>
+            <div id="logo-header">
+                <a href="/index.html"><img src="/assets/logo-aba.png" alt="logo-do-cade-meu-vinil-2024"></a>
+                <img id="logo-name" src="/assets/logo-nome.png" alt="nome-da-logo-do-cade-meu-vinil-2024">
+            </div>
             <div class="header-topics">
                 <button type="button" class="topics-button">Home</button>
                 <button type="button" class="topics-button">Objetivos</button>
@@ -43,13 +42,9 @@
                 <p class="p2">Escreva aqui o nome do Disco ou da Banda</p>
                 <div class="input-config">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" class="search" placeholder="Pesquisar">
+                    <input type="text" class="search-bar" placeholder="Pesquisar">
                 </div>
-            </div>
-            <!-- <div class="artists" id="art">
-                <img src="/assets/davis.png" class="a-img" alt="">
-                <img src="/assets/beatles.png" class="a-img" alt="">
-            </div>     -->
+            </div>   
             </div>
         </div>
     </main>
